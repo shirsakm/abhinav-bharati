@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    background-color: #EBEBEB;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+
+#nav {
+    background-color: #072C53;
+    padding: 12px;
+    margin: 0;
+
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#nav li {
+    padding-left: 14px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #EBEBEB;
+}
+
+#hero {
+    background-image: linear-gradient(to right, 
+                        rgba(235, 235, 235, 0.9), 
+                        rgba(235, 235, 235, 0.89), 
+                        rgba(235, 235, 235, 0.01)),
+                        url('/assets/images/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 30px;
+
+    font-family: 'Poppins', serif;
+}
+
+#hero-text {
+    padding-bottom: 1rem;
+}
+
+#hero p {
+    width: 50%;
+
+    text-align: justify;
+}
+
+#hero-cta button {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+
+    padding: 0.5rem 2rem;
+    margin-right: 16px;
+    border: none;
+}
+
+#hero-cta button:first-child {
+    background-color: #808080;
+    color: #EBEBEB;
+}
+
+#hero-cta button:last-child {
+    background-color: #072C53;
+    color: #EBEBEB;
+}

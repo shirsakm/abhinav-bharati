@@ -1,0 +1,9 @@
+<ul id="nav"> 
+    {% for item in site.data.nav %}
+        <li>
+            <a href="{{ item.link }}">
+                {{ item.title | upcase}}
+            </a>
+        </li>
+    {% endfor %}
+</ul>
